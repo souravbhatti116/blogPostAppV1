@@ -1,0 +1,32 @@
+.mainDiv{
+    margin: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label, h1{
+    font-weight: bold;
+}
+
+h1{
+    font-weight: bold;
+}
+
+#navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFDCB6;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    background-color: #C9A7EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footerDiv{
+    padding: 1%;
+}

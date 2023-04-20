@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+<div class="mainDiv" >
+    <h1> Hello <%= user %> ! Welcome to your blog post.</h1><br>
+
+    <% if (content.length == 0) { %>
+        <p> Go To Compose Page to Create Journal Entries.</p>    
+        
+    <% } %>
+
+    <% for( let i = 0; i < content.length; i++ ) { %>
+        <div>
+            <h1><%=content[i].title%></h1><span><p><%= content[i].date %></p></span>
+            <p>
+                <%=content[i].body.substring(0,100) + "..." %> 
+                <a href='/posts/<%=content[i].title %>'>Readmore</a>
+            </p>
+        </div>
+    <% } %>
+</div>
+<a href="/compose"> + </a>
+
+<%- include('partials/footer') %>
+
