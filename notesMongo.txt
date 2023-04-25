@@ -1,0 +1,19 @@
+// Commands - 
+
+1. mongod - spin up mongo server.  
+
+2. [show dbs] - Shows the databases.
+
+3. use [new_db_name] - create a new database.
+
+4. db - tells you what database you working in.
+
+5. db.collection.insertOne({})
+
+6. db.collection.find({ query})
+
+7. db.dropDataBase() - remove the database
+
+//MOngoose = ODM for Node.js
+
+
